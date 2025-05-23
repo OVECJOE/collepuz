@@ -181,7 +181,7 @@ HttpResponse<String> response = httpClient.send(request,
 To integrate additional quiz APIs, modify the `getOnlineQuestions()` method:
 
 ```java
-private static List<Question> getQuestionsFromNewAPI() throws Exception {
+private static List<Question> getQuestionsFromNewAPI() {
     String url = "https://your-quiz-api.com/questions";
     // Add your API logic here
 }
